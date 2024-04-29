@@ -1,0 +1,15 @@
+Start Date: 29-04-2024
+
+Supriya Singh, B.Com, Angul
+
+Microsoft Office is a suite of applications designed to help with productivity 
+and completing common tasks on a computer. You can create and edit documents 
+containing text and images, work with data in spreadsheets and databases, and 
+create presentations and posters. Microsoft Office: an overview.
+
+Products wrapped in MS-Office:
+1.  Words
+2.  Power Point
+3.  Excel
+4.  Outlook
+5.  Access
