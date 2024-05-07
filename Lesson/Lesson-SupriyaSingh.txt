@@ -1,15 +1,57 @@
 Start Date: 29-04-2024
 
 Supriya Singh, B.Com, Angul
+Mobile No.: 8249876924
+Email-id: singhsupriya9957@gmail.com
+GitHub repo: https://github.com/milandas63/SupriyaSingh
 
-Microsoft Office is a suite of applications designed to help with productivity 
-and completing common tasks on a computer. You can create and edit documents 
-containing text and images, work with data in spreadsheets and databases, and 
-create presentations and posters. Microsoft Office: an overview.
 
-Products wrapped in MS-Office:
-1.  Words
-2.  Power Point
-3.  Excel
-4.  Outlook
-5.  Access
++--------------------+
+| Monday, 29-04-2024 |
++--------------------+
+    Microsoft Office is a suite of applications designed to help with productivity 
+    and completing common tasks on a computer. You can create and edit documents 
+    containing text and images, work with data in spreadsheets and databases, and 
+    create presentations and posters. Microsoft Office: an overview.
+
+    Course to cover:
+    1.  Words               Todo
+    2.  Power Point         Todo
+    3.  Excel               Todo
+    4.  MySQL               Todo
+
+    =   Watching MS-Word videos and learning
+
++---------------------+
+| Tuesday, 30-04-2024 |
++---------------------+
+    =   Watching MS-PowerPoint videos and learning
+
++-----------------------+
+| Wednesday, 01-05-2024 |
++-----------------------+
+    =   Introduction to Excel
+    =   Excel Menu System
+    =   Shortcut Keystrokes
+
++----------------------+
+| Thursday, 02-05-2024 |
++----------------------+
+    =   Absolute and Relative Cell Referencing
+
++--------------------+
+| Friday, 03-05-2024 |
++--------------------+
+    =   Conditional Formatting
+
++--------------------+
+| Monday, 06-05-2024 |
++--------------------+
+    =   MCQ Test on MS-Words
+
++---------------------+
+| Tuesday, 06-05-2024 |
++---------------------+
+    =   Data Validation
+        a)  Data validation is implemented to restrict entering wrong data.
+        b)  The data which are already entered are plotted and removed.
