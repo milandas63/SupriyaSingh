@@ -95,6 +95,10 @@ GitHub repo: https://github.com/milandas63/SupriyaSingh
     =   Translator
     =   Sort
     =   Filter
-    =   vlookup
-    =   hlookup
-    =   transpose
+    =   Vlookup
+    =   Hlookup
+    =   Transpose
+    =   Flash Fill
+    =   Text to Column
+
+
