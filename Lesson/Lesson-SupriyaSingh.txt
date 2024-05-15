@@ -101,4 +101,28 @@ GitHub repo: https://github.com/milandas63/SupriyaSingh
     =   Flash Fill
     =   Text to Column
 
++--------------------+
+| Monday, 13-05-2024 |
++--------------------+
+    =   Table (data analytics table)
+    =   Slicer
+    =   Back to range
+    =   Creating Macro
+
++---------------------+
+| Tuesday, 14-05-2024 |
++---------------------+
+    =   Graphs and Charts
+    =   Excel Macros
+
++-----------------------+
+| Wednesday, 15-05-2024 |
++-----------------------+
+    =   Data Analysis & Forecast - Slide PPT
+    =   Project Assignment - Sales Invoice Entry
+
++----------------------+
+| Thursday, 16-05-2024 |
++----------------------+
+    =   MySQL
 
