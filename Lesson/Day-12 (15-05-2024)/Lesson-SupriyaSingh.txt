@@ -1,0 +1,128 @@
+Start Date: 29-04-2024
+
+Supriya Singh, B.Com, Angul
+Mobile No.: 8249876924
+Email-id: singhsupriya9957@gmail.com
+GitHub repo: https://github.com/milandas63/SupriyaSingh
+
+
++--------------------+
+| Monday, 29-04-2024 |
++--------------------+
+    Microsoft Office is a suite of applications designed to help with productivity 
+    and completing common tasks on a computer. You can create and edit documents 
+    containing text and images, work with data in spreadsheets and databases, and 
+    create presentations and posters. Microsoft Office: an overview.
+
+    Course to cover:
+    1.  Words               Todo
+    2.  Power Point         Todo
+    3.  Excel               Todo
+    4.  MySQL               Todo
+
+    =   Watching MS-Word videos and learning
+
++---------------------+
+| Tuesday, 30-04-2024 |
++---------------------+
+    =   Watching MS-PowerPoint videos and learning
+
++-----------------------+
+| Wednesday, 01-05-2024 |
++-----------------------+
+    =   Introduction to Excel
+    =   Excel Menu System
+    =   Shortcut Keystrokes
+
++----------------------+
+| Thursday, 02-05-2024 |
++----------------------+
+    =   Absolute and Relative Cell Referencing
+
++--------------------+
+| Friday, 03-05-2024 |
++--------------------+
+    =   Conditional Formatting
+
++--------------------+
+| Monday, 06-05-2024 |
++--------------------+
+    =   MCQ Test on MS-Words
+
++---------------------+
+| Tuesday, 07-05-2024 |
++---------------------+
+    =   Data Validation
+        a)  Data validation is implemented to restrict entering wrong data.
+        b)  The data which are already entered are plotted and removed.
+
++-----------------------+
+| Wednesday, 08-05-2024 |
++-----------------------+
+    =   Project work using Data-Validation
+    =   3D-Sum
+    =   Consolidation
+
++----------------------+
+| Thursday, 09-05-2024 |
++----------------------+
+    =   Create a PPT on Data Validation. There will be 5 slides, simple and elaborate.
+    =   The TEXT function
+        The TEXT function lets you change the way a number appears by applying 
+        formatting to it with format codes. It's useful in situations where you
+        want to display numbers in a more readable format, or you want to combine
+        numbers with text or symbols.
+        Syntax:
+            =TEXT(Value you want to format, "Format code you want to apply")
+        
+        Formula                         Description
+        =TEXT(1234.567,"$#,##0.00")     Currency with a thousands separator and 2 decimals, like $1,234.57. Note that Excel rounds the value to 2 decimal places.
+        =TEXT(TODAY(),"MM/DD/YY")       Today’s date in MM/DD/YY format, like 03/14/12
+        =TEXT(TODAY(),"DDDD")           Today’s day of the week, like Monday
+        =TEXT(NOW(),"H:MM AM/PM")       Current time, like 1:29 PM
+        =TEXT(0.285,"0.0%")             Percentage, like 28.5%
+        =TEXT(4.34 ,"# ?/?")            Fraction, like 4 1/3
+        =TRIM(TEXT(0.34,"# ?/?"))       Fraction, like 1/3. Note this uses the TRIM function to remove the leading space with a decimal value.
+        =TEXT(12200000,"0.00E+00")      Scientific notation, like 1.22E+07
+        =TEXT(1234567898,"[<=9999999]###-####;(###) ###-####")
+                                        Special (Phone number), like (123) 456-7898
+        =TEXT(1234,"0000000")           Add leading zeros (0), like 0001234
+        =TEXT(123456,"##0° 00' 00''")   Custom - Latitude/Longitude
+
++--------------------+
+| Friday, 10-05-2024 |
++--------------------+
+    =   Translator
+    =   Sort
+    =   Filter
+    =   Vlookup
+    =   Hlookup
+    =   Transpose
+    =   Flash Fill
+    =   Text to Column
+
++--------------------+
+| Monday, 13-05-2024 |
++--------------------+
+    =   Table (data analytics table)
+    =   Slicer
+    =   Back to range
+    =   Creating Macro
+
++---------------------+
+| Tuesday, 14-05-2024 |
++---------------------+
+    =   Graphs and Charts
+    =   Excel Macros
+
++-----------------------+
+| Wednesday, 15-05-2024 |
++-----------------------+
+    =   Data Analysis & Forecast - Slide PPT
+    =   Project Assignment - Sales Invoice Entry
+
++----------------------+
+| Thursday, 16-05-2024 |
++----------------------+
+    =   MySQL
+
