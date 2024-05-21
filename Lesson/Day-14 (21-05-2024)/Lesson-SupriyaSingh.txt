@@ -1,0 +1,253 @@
+Start Date: 29-04-2024
+
+Supriya Singh, B.Com, Angul
+Mobile No.: 8249876924
+Email-id: singhsupriya9957@gmail.com
+GitHub repo: https://github.com/milandas63/SupriyaSingh
+
+
++--------------------+
+| Monday, 29-04-2024 |
++--------------------+
+    Microsoft Office is a suite of applications designed to help with productivity 
+    and completing common tasks on a computer. You can create and edit documents 
+    containing text and images, work with data in spreadsheets and databases, and 
+    create presentations and posters. Microsoft Office: an overview.
+
+    Course to cover:
+    1.  Words               Todo
+    2.  Power Point         Todo
+    3.  Excel               Todo
+    4.  MySQL               Todo
+
+    =   Watching MS-Word videos and learning
+
++---------------------+
+| Tuesday, 30-04-2024 |
++---------------------+
+    =   Watching MS-PowerPoint videos and learning
+
++-----------------------+
+| Wednesday, 01-05-2024 |
++-----------------------+
+    =   Introduction to Excel
+    =   Excel Menu System
+    =   Shortcut Keystrokes
+
++----------------------+
+| Thursday, 02-05-2024 |
++----------------------+
+    =   Absolute and Relative Cell Referencing
+
++--------------------+
+| Friday, 03-05-2024 |
++--------------------+
+    =   Conditional Formatting
+
++--------------------+
+| Monday, 06-05-2024 |
++--------------------+
+    =   MCQ Test on MS-Words
+
++---------------------+
+| Tuesday, 07-05-2024 |
++---------------------+
+    =   Data Validation
+        a)  Data validation is implemented to restrict entering wrong data.
+        b)  The data which are already entered are plotted and removed.
+
++-----------------------+
+| Wednesday, 08-05-2024 |
++-----------------------+
+    =   Project work using Data-Validation
+    =   3D-Sum
+    =   Consolidation
+
++----------------------+
+| Thursday, 09-05-2024 |
++----------------------+
+    =   Create a PPT on Data Validation. There will be 5 slides, simple and elaborate.
+    =   The TEXT function
+        The TEXT function lets you change the way a number appears by applying 
+        formatting to it with format codes. It's useful in situations where you
+        want to display numbers in a more readable format, or you want to combine
+        numbers with text or symbols.
+        Syntax:
+            =TEXT(Value you want to format, "Format code you want to apply")
+        
+        Formula                         Description
+        =TEXT(1234.567,"$#,##0.00")     Currency with a thousands separator and 2 decimals, like $1,234.57. Note that Excel rounds the value to 2 decimal places.
+        =TEXT(TODAY(),"MM/DD/YY")       Today’s date in MM/DD/YY format, like 03/14/12
+        =TEXT(TODAY(),"DDDD")           Today’s day of the week, like Monday
+        =TEXT(NOW(),"H:MM AM/PM")       Current time, like 1:29 PM
+        =TEXT(0.285,"0.0%")             Percentage, like 28.5%
+        =TEXT(4.34 ,"# ?/?")            Fraction, like 4 1/3
+        =TRIM(TEXT(0.34,"# ?/?"))       Fraction, like 1/3. Note this uses the TRIM function to remove the leading space with a decimal value.
+        =TEXT(12200000,"0.00E+00")      Scientific notation, like 1.22E+07
+        =TEXT(1234567898,"[<=9999999]###-####;(###) ###-####")
+                                        Special (Phone number), like (123) 456-7898
+        =TEXT(1234,"0000000")           Add leading zeros (0), like 0001234
+        =TEXT(123456,"##0° 00' 00''")   Custom - Latitude/Longitude
+
++--------------------+
+| Friday, 10-05-2024 |
++--------------------+
+    =   Translator
+    =   Sort
+    =   Filter
+    =   Vlookup
+    =   Hlookup
+    =   Transpose
+    =   Flash Fill
+    =   Text to Column
+
++--------------------+
+| Monday, 13-05-2024 |
++--------------------+
+    =   Table (data analytics table)
+    =   Slicer
+    =   Back to range
+    =   Creating Macro
+
++---------------------+
+| Tuesday, 14-05-2024 |
++---------------------+
+    =   Graphs and Charts
+    =   Excel Macros
+
++-----------------------+
+| Wednesday, 15-05-2024 |
++-----------------------+
+    =   Data Analysis & Forecast - Slide PPT
+    =   Project Assignment - Sales Invoice Entry
+
++--------------------+
+| Monday, 20-05-2024 |
++--------------------+
+    =   RDBMS stands for Relational DataBase Management System
+        SQL stands for Structured Query Language
+
+    =   Example of RDBMS engines:
+        >   Oracle              Oracle Corp.
+        >   MS-SQL Server       Microsoft Corp.
+        >   Informix
+        >   Ingress
+        >   GuptaSQL
+        >   DB2
+        >   MySQL/MariaDB
+        >   PostgreSQL
+        >   
+
+    =   How to create a user?
+        CREATE USER 'supriya'@'localhost' IDENTIFIED BY 'supriya';
+
+    =   How to grant privileges to a user?
+        GRANT ALL PRIVILEGES ON *.* TO 'supriya'@'localhost';
+
+    =   All the commands in SQL are categorised into 3 parts:
+        1)  DDL - Data Definition Language
+        2)  DML - Data Manipulation Language
+        3)  DCL - Data Control Language
+
+    =   What are commands that fall under DDL?
+        ALTER, CREATE, DROP, TRANCATE, RENAME, etc. are commands that fall under DDL
+
+    =   What are commands that fall under DML?
+        INSERT, MERGE, UPDATE, DELETE, SELECT, etc.
+
+    =   What are commands that fall under DCL?
+        COMMIT, CONNECT, GRANT, LOCK, REVOKE, ROLLBACK, etc.
+
+    =   How to create a database?
+        CREATE DATABASE [IF NOT EXISTS] <dbName>;
+        CREATE DATABASE supriya;
+
+    =   How to connect to a database?
+        USE <dbName>;
+        USE supriya;
+
+    =   How to create a table inside a database?
+        CREATE TABLE [IF NOT EXISTS] employ(
+            emp_id          INT(6)          NOT NULL AUTO_INCREMENT,
+            emp_name        VARCHAR(30)     NOT NULL UNIQUE,
+            dob             DATE,
+            PRIMARY KEY(emp_id)
+        );
+        CREATE TABLE employ(
+            emp_id          INT(6)          NOT NULL AUTO_INCREMENT,
+            emp_name        VARCHAR(30)     NOT NULL UNIQUE,
+            dob             DATE,
+            PRIMARY KEY(emp_id)
+        );
+
+    =   How to see the content of a table header?
+        DESCRIBE <tbName>;
+
+
++---------------------+
+| Tuesday, 21-05-2024 |
++---------------------+
+    =   While defining the column name in the CREATE TABLE command, two more things are
+        provided, i.e. the column-type and column-constraints.
+
+    =   The list of the valid mysql column types are as follows:
+        Blob
+        Float
+        Char
+        Datetime
+        Enum
+        INT
+        Numeric types
+        Binary file
+        VARCHAR
+        Char byte
+        Data type
+        Date and time types
+        String types
+        Binary number
+        Double
+        Text
+        Time
+        TINYTEXT
+        BigInt
+        Bool
+        LONGTEXT
+        MEDIUMINT
+        Precision
+        Boolean data type
+
+    =   The list of the valid mysql constraints are as follows:
+        Primary key             table constraint
+        Foreign key             table constraint
+        NOT NULL                column constraint
+        Check                   table constraint
+        Default                 column constraint
+        Unique key              table constraint
+        Unique                  column constraint
+        CHECK constraint        column constraint
+        Constraint              table constraint
+        auto_increment          column constraint
+        ENUM                    column constraint
+
+    =   Create a table with the following columns:
+        
+        Table-1: designation
+        desig_id
+        desig_desc
+        desig_abbr
+
+        Table-2: department
+        dept_id
+        dept_name
+        dept_abbr
+
+        Table-3: employ
+        emp_id
+        emp_name
+        gender
+        desig_id
+        dept_id
+        dob
+        doj
+        high_qualif
+
