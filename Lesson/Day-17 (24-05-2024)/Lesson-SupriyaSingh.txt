@@ -475,3 +475,7 @@ GitHub id: supriya432
     =   SELECT admission_class,COUNT(*) FROM admission_regd GROUP BY admission_class;
 
     =   SELECT student_name FROM admission_regd WHERE student_name LIKE '%mohapatra%';
+        SELECT student_name FROM admission_regd WHERE student_name LIKE '%kumar%' order by 1;
+        SELECT student_name FROM admission_regd WHERE student_name LIKE 'adit%';
+
+
