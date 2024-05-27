@@ -486,5 +486,13 @@ GitHub id: supriya432
         Create another table in the name biodata with same structure and data as in 
         resume.
 
+    =   CREATE TABLE <tbname1> LIKE <tbname2>
+        A new tbname1 table is created with same structure as in tbname2.
 
+    =   How to copy all rows from another table with same structure?
+        INSERT INTO biodata SELECT * FROM resume;
+
+    =   CREATE VIEW resumeview AS SELECT r.id,r.name,r.mobile,q.qualif_desc,l.lang_name FROM resume AS r LEFT JOIN qualification AS q ON r.qualif_id=q.qualif_id LEFT JOIN language AS l ON r.lang_id=l.lang_id
+
+    =   CREATE a complex SELECT using at least 3 tables and convert it into a VIEW
 
