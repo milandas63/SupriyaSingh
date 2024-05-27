@@ -1,0 +1,608 @@
+Start Date: 06-05-2024
+
+Maiyang Ghiselaine		7749091578		maiyangghiselaine@gmail.com     Maiyang2000
+GitHub URL: https://github.com/milandas63/Maiyang
+
++--------------------+
+| Monday, 06-05-2024 |
++--------------------+
+    =   Introduction to Flowchart
+    =   Installation of software
+        a)  JavaSE 1.8
+        b)  JavaSE 1.8 API Documentation
+        c)  EditPlus 4
+        d)  Eclipse Oxygen
+        e)  Q-Dir
+        f)  Books
+
+
++---------------------+
+| Tuesday, 07-05-2024 |
++---------------------+
+    =   Data Types
+        There are 2 categories of data types:
+        1.  Primitive data type
+            i. byte     integer         +127 to -128
+           ii. short    integer         -32768 to 32767
+          iii. int      integer         -2147483648 to 2147483647
+           iv. long     integer         -9223372036854775808 to 9223372036854775807
+            v. float
+           vi. double
+          vii. char
+         viii. boolean
+        2.  Object data type
+
+
+
+        >   Primitive data type     Wrapper-classes         Data-Range
+            -   byte                java.lang.Byte          -128 to +127
+            -   short               java.lang.Short         -32768 to 32767
+            -   int*                java.lang.Integer       -2147483648 to 2147483647
+            -   long                java.lang.Long          -9223372036854775808 to 9223372036854775807
+            -   float               java.lang.Float
+            -   double*             java.lang.Double
+            -   boolean             java.lang.Boolean
+            -   char                java.lang.Character
+
+
++-----------------------+
+| Wednesday, 08-05-2024 |
++-----------------------+
+    =   Write a program to find all prime numbers between 2000 and 5000?
+
+
++----------------------+
+| Thursday, 09-05-2024 |
++----------------------+
+    =   Hierarchy of a Java program is as follows:
+
+        +- Package-01
+        |  +- Class-01
+        |  +- Class-02
+        |  +- Class-03
+        +- Package-02
+        |  +- Class-101
+        |  +- Class-102
+        |  +- Class-103
+        +- Package-03
+        |  +- Class-201
+        |  +- Class-202
+        |  +- Class-203
+
+    =   Problem to Solve
+        
+        Hello World
+        .......................................Hello World
+        ...................Hello World....................
+        Hello World.......................................
+
+    =   INSTATIATION
+        primary (object always resides in primary)
+
+              a   b   c    q    t   x       y       t
+               \  |  /      \   |    \     /        |
+        --------\-|-/--------\--|-----\---/---------|-- new
+                 \|/          \ |      \ /          |
+               String          \|       B           |
+                                A                Integer
+
+        secondary (a class always resides in secondary)
+
+
++--------------------+
+| Friday, 10-05-2024 |
++--------------------+
+    =   Class suspended on request from Maiyang
+
+
++--------------------+
+| Monday, 13-05-2024 |
++--------------------+
+    =   What is a programming language?
+        Instructions to computer in human readable notational form. These languages are 
+        written in form of notations.
+
+    =   Features of programming languages
+        >   executes in sequence of line numbers
+        >   ability to loop/interate across one or a set of lines
+        >   condition checking
+        >   computation or evaluating formula
+
+    =   What is source program and compiled program?
+        Source programs are written in human readable form. They are written and maintained 
+        by the programmers. Source programs are written using a particular computer language 
+        such as C, C++, Java, C#, etc.
+
+        In order to execute the program they must be compiled to generate machine language 
+        code or intermediate code files that help to generate the machine language. Machine
+        ultimately understands the machine language.
+
+    =   What is high-level language vs. machine language?
+        High-level languages are computer programs that are written in human readable form.
+        The programmer write these code and maintains as and when required.
+        
+        The High-level program are compiled and ultimately converted into machine language
+        so that, the machine understands and executes.
+
+    =   What is compiled programs?
+        When the source program is processed within to generate machine language program
+        or intermediate data that is used to generate machine language, it is known as
+        compiled program.
+
+    =   What is JDK?
+        JDK stands for Java Development Kit. It is a combination of Development tools and
+        the Runtime environment tools together.
+
+    =   What is JRE?
+        JRE stands for Java Runtime Environment
+
+    =   What is JVM?
+        JVM stands for Java Virtual Machine. JVM is a part of the JRE (Java Runtime Environment).
+
+    =   Relationship between JDK, JRE and JVM.
+        Illustrated diagram provided.
+
+    Types of programming languages
+        >   passive language
+        >   active language
+        >   dynamic language
+
+    Methods of programming
+        >   procedure oriented
+            Procedural Programming divides the program into small programs and refers to
+            them as functions.
+        >   object oriented
+            Object Oriented Programming divides the program into small parts and refers to 
+            them as objects.
+
+    Types of programs in Java
+        >   Application
+            An application is a programs that starts from the main(String[] args) method.
+            The main method must have a signature in the following pattern:
+                public static void main(String[] args) {}
+        >   Applet
+            An applet is a java program that is embedded with HTML and executed by the
+            browser with the help of JVM.
+        >   Servlet
+            Is a dynamic programs
+
+    =   Programming languages paradigms:
+        1)  Object-Oriented Programming
+        2)  Functional Programming
+        3)  Procedural Programming
+        4)  Imperative Programming
+        5)  Declarative Programming
+        6)  Structured Programming
+        7)  Comparison of multi-paradigm programming languages
+        8)  Parallel computing
+        9)  Logic programming
+       10)  Event-driven programming
+       11)  Aspect-oriented programming
+       12)  Data-driven programming
+       13)  Comparison of multi-paradigm programming languages
+       14)  Modular programming
+       15)  Encapsulation
+       16)  Stack-oriented programming
+
+        Google and write short notes on above programming languages paradigms.
+
+    =   Object-Orented Programming
+        Object-oriented programming (OOP) is a style of programming characterized by 
+        the identification of classes of objects closely linked with the methods 
+        (functions) with which they are associated. It also includes ideas of 
+        inheritance of attributes and methods.
+
+    =   The OOPs language has 3 features:
+        1)  Encapsulation
+        2)  Inheritance
+        3)  Polymorphism
+
+    =   String class:
+        A class that is pre-defined. This class is provided in the Java installation
+        toolkit. It contains around 15 constructors and more than 50 methods.
+
+        String text = new String(15);           // Wrong
+        String text = new String("Miayang");    // Correct
+
+        Any thing/character that is embedded with double quote ("") is treated as a
+        String object.
+
+        System.out.println("Milan".length());
+
+    =   Write a program to reverse the content of a string?
+            Maiyang Ghislaine
+            enialsihG gnayiaM
+
+        String org = "Maiyang Ghislaine";
+        for(int i=org.length()-1; i>=0; i--) {
+            System.out.print(org.charAt(i));
+        }
+
+
++---------------------+
+| Tuesday, 14-05-2024 |
++---------------------+
+    =   The OOPs language has 3 features:
+        1)  What is Encapsulation?
+            When the data and the program code are enveloped into one unit
+            it is known as encapsulation.
+
+            public class Employ {
+                private String emp_id;
+                private double salary_amt;
+                private double tds_amt;
+
+                public double getTDSAmt(double tax_pc) {
+                    tds_amt = salary_amt * tax_pc/100;
+                    return tds_amt;
+                }
+            }
+
+        2)  Inheritance
+            Like the real world, one class inherit another class. The Adam class
+            is known as java.lang.Object class. Every Java class must inherit the
+            java.lang.Object class.
+
+            Java restricts multiple inheritance. It allows multi-level inheritance.
+
+            Example of Multiple Inheritance
+
+              +-------------+                    +--------+
+              | SolarSystem |                    |   Sun  |
+              +-------------+                    +--------+
+                    |                                 |
+                    +----------------+----------------+
+                                     |
+                                +--------+
+                                | Planet |
+                                +--------+
+
+            Multi-level Inheritance
+
+            Object
+            +- SolarSytem
+            |  +- Sun
+            |  |  +- Planet
+
+            When a class inherit another class, the property of the parent
+            classes become the child class property. 
+
+            If no class is inherited, implicitly the Object class is inherited.
+
+            class Object {
+            }
+
+            class SolarSystem extends Object {
+            }
+
+            class Sun extends SolarSystem {
+            }
+
+            class Planet extends Sun {
+            }
+
+        3)  Polymorphism
+            When same name is given to two different entities/bodies, it is known
+            as polymorphism.
+
+            class House {
+                public void sofa() {
+                }
+
+                public void sofa(int room_no) {
+                }
+
+                public void sofa(String which_room) {
+                }
+            }
+
+            There are two types of polymorphism:
+            1)  Overloading
+                When two or more members have same name within the same class
+                it is known as overloading.
+            2)  Overriding
+                When two different entities/bodies have same name in the
+                parent class and in the child class with same parameter list
+                it is known as overriding.
+
+                class Community {
+                    public String garage() {
+                    }
+                }
+
+                class MyHouse extends Community {
+                    public String garage() {
+                    }
+                }
+
+
++-----------------------+
+| Wednesday, 15-05-2024 |
++-----------------------+
+    =   String Array
+            String[] arr
+            +---------------------------+
+        0   |                           | String
+            +---------------------------+
+        1   |                           | String
+            +---------------------------+
+        2   |                           | String
+            +---------------------------+
+        3   |                           | String
+            +---------------------------+
+        4   |                           | String
+            +---------------------------+
+        5   |                           | String
+            +---------------------------+
+        6   |                           | String
+            +---------------------------+
+        7   |                           | String
+            +---------------------------+
+
+    =   Brackets
+        1)  []  Square bracket
+        2)  ()  Round bracket
+        3)  <>  Angle bracket
+
+    =   String class            -   Immutable
+        StringBuffer class      -   Mutable
+
++--------------------+
+| Monday, 20-05-2024 |
++--------------------+
+    =   What is a programming language?
+        A programming language is a human readable notation language.
+        Programs are in written in form of nationtion and compiled to
+        generate machine language that the machine understands.
+
+    =   What are the features of programming language:
+        a)  Programs are executed by sequence of line number
+        b)  Ability to irrerate/loop across one or more lines.
+            You want to print "Maiyang" 10 times;
+            You can make a loop across the print statement to run
+            the same statement 10 times.
+
+            for(int i=0; i<10; i++) {
+                System.out.println("Maiyang");
+            }
+
+            for is a looping statement. The grammer/syntax is:
+                for([initializer]; [termination-condition]; [incrementer]) {}
+
+            Besides for another loop in the name while exists:
+
+            Syntax:
+                while(condition) {
+                }
+
+                //  Infinite loop
+                while(1<2) {
+                }
+
+                int i=10;
+                while(i%2==0) {
+                    System.out.println(i);
+                }
+
++---------------------+
+| Tuesday, 21-05-2024 |
++---------------------+
+    =   Reverse Palindrome triangle
+    =   Multiplication Tables
+
+
++-----------------------+
+| Wednesday, 22-05-2024 |
++-----------------------+
+    =   EXCEPTION HANDLING
+    =   What is exception handling?
+        Exception is a fault resistance technique implemented within a programming language.
+
+    =   For exception handling, a statement in the name "try" is provided in Java language.
+        The try command has two more clauses, the "catch" and "finally" clauses.
+
+    =   Structure of the try statement:
+
+        try {
+            .........
+            .........
+            .........
+            .........
+        } catch(ExceptionName1 var) {
+        } catch(ExceptionName2 var) {
+        } catch(ExceptionName3 var) {
+        } catch(ExceptionName4 var) {
+        } catch(ExceptionName5 var) {
+        } finally {
+        }
+
+    =   The program is written within the try block. When an exception occurs within the
+        try block, that line is the last line to be executed within the block.
+
+
+    =   Exception is a class, a special type of class. Any class that inherits the
+        Throwable class is treated and an exception class.
+
+        Object
+        +- Throwable
+        |  +- Error (used by JVM)
+        |  |  +- AnnotationFormatError
+        |  |  +- AssertionError
+        |  |  +- AWTError
+        |  |  +- CoderMalfunctionError
+        |  |  +- FactoryConfigurationError
+        |  |  +- FactoryConfigurationError
+        |  |  +- IOError
+        |  |  +- LinkageError
+        |  |  |  +- BootstrapMethodError
+        |  |  |  +- ClassCircularityError
+        |  |  |  +- ClassFormatError
+        |  |  |  +- ExceptionInInitializerError
+        |  |  |  +- IncompatibleClassChangeError
+        |  |  |  +- NoClassDefFoundError
+        |  |  |  +- UnsatisfiedLinkError
+        |  |  |  +- VerifyError
+        |  |  +- SchemaFactoryConfigurationError
+        |  |  +- ServiceConfigurationError
+        |  |  +- ThreadDeath
+        |  |  +- TransformerFactoryConfigurationError
+        |  |  +- VirtualMachineError
+        |  +- Exception
+        |  |  +- AclNotFoundException
+        |  |  +- ActivationException
+        |  |  +- AlreadyBoundException
+        |  |  +- ApplicationException
+        |  |  +- AWTException
+        |  |  +- BackingStoreException
+        |  |  +- BadAttributeValueExpException
+        |  |  +- BadBinaryOpValueExpException
+        |  |  +- BadLocationException
+        |  |  +- BadStringOperationException
+        |  |  +- BrokenBarrierException
+        |  |  +- CertificateException
+        |  |  +- CloneNotSupportedException
+        |  |  +- DataFormatException
+        |  |  +- DatatypeConfigurationException
+        |  |  +- DestroyFailedException
+        |  |  +- ExecutionException
+        |  |  +- ExpandVetoException
+        |  |  +- FontFormatException
+        |  |  +- GeneralSecurityException
+        |  |  +- GSSException
+        |  |  +- IllegalClassFormatException
+        |  |  +- InterruptedException
+        |  |  +- IntrospectionException
+        |  |  +- InvalidApplicationException
+        |  |  +- InvalidMidiDataException
+        |  |  +- InvalidPreferencesFormatException
+        |  |  +- InvalidTargetObjectTypeException
+        |  |  +- IOException
+        |  |  +- JAXBException
+        |  |  +- JMException
+        |  |  +- KeySelectorException
+        |  |  +- LambdaConversionException
+        |  |  +- LastOwnerException
+        |  |  +- LineUnavailableException
+        |  |  +- MarshalException
+        |  |  +- MidiUnavailableException
+        |  |  +- MimeTypeParseException
+        |  |  +- MimeTypeParseException
+        |  |  +- NamingException
+        |  |  +- NoninvertibleTransformException
+        |  |  +- NotBoundException
+        |  |  +- NotOwnerException
+        |  |  +- ParseException
+        |  |  +- ParserConfigurationException
+        |  |  +- PrinterException
+        |  |  +- PrintException
+        |  |  +- PrivilegedActionException
+        |  |  +- PropertyVetoException
+        |  |  +- ReflectiveOperationException
+        |  |  +- RefreshFailedException
+        |  |  +- RemarshalException
+        |  |  +- RuntimeException
+        |  |  |  +- AnnotationTypeMismatchException
+        |  |  |  +- ArithmeticException
+        |  |  |  +- ArrayStoreException
+        |  |  |  +- BufferOverflowException
+        |  |  |  +- BufferUnderflowException
+        |  |  |  +- CannotRedoException
+        |  |  |  +- CannotUndoException
+        |  |  |  +- ClassCastException
+        |  |  |  +- CMMException
+        |  |  |  +- CompletionException
+        |  |  |  +- ConcurrentModificationException
+        |  |  |  +- DataBindingException
+        |  |  |  +- DateTimeException
+        |  |  |  +- DOMException
+        |  |  |  +- EmptyStackException
+        |  |  |  +- EnumConstantNotPresentException
+        |  |  |  +- EventException
+        |  |  |  +- FileSystemAlreadyExistsException
+        |  |  |  +- FileSystemNotFoundException, IllegalArgumentException, IllegalMonitorStateException, IllegalPathStateException, IllegalStateException, IllformedLocaleException, ImagingOpException, IncompleteAnnotationException, IndexOutOfBoundsException, JMRuntimeException, LSException, MalformedParameterizedTypeException, MalformedParametersException, MirroredTypesException, MissingResourceException, NegativeArraySizeException, NoSuchElementException, NoSuchMechanismException, NullPointerException, ProfileDataException, ProviderException, ProviderNotFoundException, RasterFormatException, RejectedExecutionException, SecurityException, SystemException, TypeConstraintException, TypeNotPresentException, UncheckedIOException, UndeclaredThrowableException, UnknownEntityException, UnmodifiableSetException, UnsupportedOperationException, WebServiceException, WrongMethodTypeException
+        |  |  +- SAXException
+        |  |  +- ScriptException
+        |  |  +- ServerNotActiveException
+        |  |  +- SOAPException
+        |  |  +- SQLException
+        |  |  +- TimeoutException
+        |  |  +- TooManyListenersException
+        |  |  +- TransformerException
+        |  |  +- TransformException
+        |  |  +- UnmodifiableClassException
+        |  |  +- UnsupportedAudioFileException
+        |  |  +- UnsupportedCallbackException
+        |  |  +- UnsupportedFlavorException
+        |  |  +- UnsupportedLookAndFeelException
+        |  |  +- URIReferenceException
+        |  |  +- URISyntaxException
+        |  |  +- UserException
+        |  |  +- XAException
+        |  |  +- XMLParseException
+        |  |  +- XMLSignatureException
+        |  |  +- XMLStreamException
+        |  |  +- XPathException
+
+    =   ASSIGNMENT:
+        write a program to count the numbers of vowels used in a string?
+
++----------------------+
+| Thursday, 24-05-2024 |
++----------------------+
+    =   Any class that inherits the Throwable is considered as an exception class.
+        There are 2 types of exception classes:
+        1)  Checked exception
+            The validity of an exception that is checked during compilation.
+            >   An exception that is likely generated from the try block and doesn't
+                contain an appropriate catch clause.
+            >   An exception that is not generate from the try block but a catch
+                clause exists.
+        2)  Unchecked exception
+            Unchecked exceptions are not checked during compilation. In case there
+            is an exception, it is handled during runtime.
+
+    =   When is an exception generated?
+        1.  During a mathematical operation
+        2.  While using a function/method that generates exception
+        3.  When you throw and exception object
+
+    =   ASSIGNMENT:
+        1.  Write a program to reserve a string
+        2.  Write a program to convert all lowercase character in a string 
+            to uppercase
+        3.  Write a program to convert all uppercase character in a string
+            to lowercase
+        4.  Write a program to convert all first character of the word in
+            a string to uppercase
+        5.  Write a program to remove all vowels from a given string
+
+
++--------------------+
+| Monday, 27-05-2024 |
++--------------------+
+    =   A = 65
+        Z = 90
+        a = 97
+        z = 122
+
+
+    =   A certain country wants to issue voter-id card to eligible citizens.
+        Citizens who are between 18 years old through 90 years old are eligible
+        to vote.
+
+        {27,13,44,51,62,29,0,33,57,45,91,20,35,72,-36,61,24}
+
+        Object
+        +- Throwable
+        |  +- Exception
+        |  |  +- AgeException
+        |  |  |  +- InvalidAgeException
+        |  |  |  |  +- NegativeAgeException
+        |  |  |  |  +- ZeroAgeException
+        |  |  |  +- AgeCeilingException
+        |  |  |  |  +- TooYoungAgeException
+        |  |  |  |  +- TooOldAgeException
+
+=   Write a program to print next 10 numbers in the series:
+    a)  2, 12, 7, 17, 12, 22, ...................
+    b)  1, 4, 8, 13, 16, 20, 25, ...................
